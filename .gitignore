@@ -1,29 +1,22 @@
-# Env
-.env
-.env.*
-!.env.example
-
-# Dependencies
+# dependencies
 node_modules/
 
-# Logs
-logs/
-*.log
+# environment
+.env
+.env.*
 
-# Build
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# build / coverage
 dist/
 build/
 coverage/
 
-# DB
-*.sqlite
-*.db
-
-# OS / Editor
+# OS / editor
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
-
-# Cache
-.cache/
